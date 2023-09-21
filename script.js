@@ -21,7 +21,7 @@ function writePassword() {
     alert("Please enter a valid number for the password length.");
     return generatePasswords();
   } else if (passwordLength < 8 || passwordLength > 128) {
-    alert("Password length must be bwtween 7-129.");
+    alert("Password length must be bwtween 8-128.");
     return;
   }
   passwordLength = parseInt(passwordLength);

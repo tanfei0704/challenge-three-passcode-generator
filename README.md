@@ -35,7 +35,7 @@ THEN the password is either displayed in an alert or written to the page
 3.open index.html file;
 4.right click on mouse to look through on default broswer;
 
-Or you can directly copy& paste link " " on your broswer.
+Or you can directly copy& paste link "https://tanfei0704.github.io/challenge-three-passcode-generator/ " on your broswer.
 
 The web should be looked like:
 ![picture](./Assets/03-javascript-homework-demo.png)
