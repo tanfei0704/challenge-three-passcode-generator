@@ -20,8 +20,8 @@ function writePassword() {
   if (passwordLength === null || isNaN(passwordLength)) {
     alert("Please enter a valid number for the password length.");
     return generatePasswords();
-  } else if (passwordLength < 1) {
-    alert("Password length must be greater than 0.");
+  } else if (passwordLength < 8 || passwordLength > 128) {
+    alert("Password length must be bwtween 7-129.");
     return;
   }
   passwordLength = parseInt(passwordLength);
@@ -36,7 +36,7 @@ function writePassword() {
   // Check if at least one character type is selected
   if (!(useLowercase || useUppercase || useNumber || useSymbol)) {
     alert("You must select at least one character type.");
-    return confirm();
+    return;
   }
   // Define character sets based on user choices
   var lowercasePW = "abcdefghijklmnopqrstuvwxyz";
