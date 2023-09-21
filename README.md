@@ -11,8 +11,6 @@ This project is to create a password generator which could generate the password
 JavaScript, HTML
 
 # Acceptance Criteria
-
-```
 GIVEN I need a new, secure password
 WHEN I click the button to generate a password
 THEN I am presented with a series of prompts for password criteria
@@ -29,7 +27,9 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
-# Usage:
+
+# Usage
+
 1.create a folder;
 2.clone link " " in your foler on terminal;
 3.open index.html file;
